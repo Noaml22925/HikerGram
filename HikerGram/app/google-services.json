@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920431602512",
+    "project_id": "hikergram",
+    "storage_bucket": "hikergram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920431602512:android:e1ae21dd35da24699b9a55",
+        "android_client_info": {
+          "package_name": "com.example.hikergram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920431602512-c0e6euhvsn30pl1qirg4d214jc1f5kh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDpFH3xffy9IQ1jSHog4CTODcqVqLa8n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920431602512-c0e6euhvsn30pl1qirg4d214jc1f5kh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
