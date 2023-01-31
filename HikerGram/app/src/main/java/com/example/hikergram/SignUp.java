@@ -123,6 +123,7 @@ public class SignUp extends AppCompatActivity {
             String accountName = userName.getText().toString().trim();
             String accountPassword = password.getText().toString().trim();
             int accountAge = Integer.parseInt(age.getText().toString().trim());
+            ArrayList<User> allUsers = UserListSingleton.getInstance().getUserList();
             if (email.getText().toString().isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email.getText().toString()).matches() || userName.getText().toString().isEmpty() || password.getText().toString().isEmpty() || age.getText().toString().isEmpty())
                 Toast.makeText(SignUp.this, "Please fill in all details before doing that", Toast.LENGTH_SHORT).show();
             if (!Patterns.EMAIL_ADDRESS.matcher(accountEmail).matches()) {
@@ -134,6 +135,14 @@ public class SignUp extends AppCompatActivity {
                 password.setError("Password must contain at least 1 character and be longer than 6 characters");
                 password.requestFocus();
                 return false;
+            }
+            for (int i = 0; i < allUsers.size(); i++) {
+                if(accountName.equals(allUsers.get(i).getUsername()))
+                {
+                    userName.setError("Username is already taken");
+                    userName.requestFocus();
+                    return false;
+                }
             }
             return true;
         }

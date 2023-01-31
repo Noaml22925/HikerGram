@@ -4,8 +4,9 @@ package com.example.hikergram;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Objects;
 
-public class User implements Serializable {
+public class User {
    private String email;
    private String username;
    private String password;
@@ -74,6 +75,19 @@ public class User implements Serializable {
                 ", age=" + age +
                 ", profilePic='" + profilePic + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+        User user = (User) o;
+        return getAge() == user.getAge() && Objects.equals(getEmail(), user.getEmail()) && Objects.equals(getUsername(), user.getUsername()) && Objects.equals(getPassword(), user.getPassword()) && Objects.equals(getProfilePic(), user.getProfilePic());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getEmail(), getUsername(), getPassword(), getAge(), getProfilePic());
     }
 }
 

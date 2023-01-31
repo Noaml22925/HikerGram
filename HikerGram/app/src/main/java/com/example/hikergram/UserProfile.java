@@ -56,6 +56,7 @@ public class UserProfile extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.navBar);
         user = FirebaseAuth.getInstance().getCurrentUser();
         editProfileBtn = findViewById(R.id.editProfileBtn);
+
         editProfileBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

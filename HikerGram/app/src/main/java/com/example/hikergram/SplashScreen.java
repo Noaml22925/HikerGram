@@ -35,7 +35,6 @@ public class SplashScreen extends AppCompatActivity {
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     User user = snapshot.getValue(User.class);
                     users.add(user);
-                    System.out.println(users.size());
                 }
                 UserListSingleton.getInstance().setUserList(users);
             }
@@ -53,7 +52,6 @@ public class SplashScreen extends AppCompatActivity {
                         Post post = postSnapshot.getValue(Post.class);
 
                         posts.add(post);
-                        System.out.println(posts.size());
                     }
                 }
                 PostListSingleton.getInstance().setPostList(posts);
