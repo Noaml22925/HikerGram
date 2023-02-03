@@ -45,6 +45,7 @@ public class EditProfile extends AppCompatActivity {
     private ImageView editProfilePicNE;
     private StorageReference storageRef;
     private Button saveButton, takeANewPic;
+    private String originalUserName;
     private static final int REQUEST_IMAGE_CAPTURE = 1;
 
     @Override
@@ -69,6 +70,7 @@ public class EditProfile extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 User userProfile = snapshot.getValue(User.class);
                 currentUser = userProfile;
+                originalUserName = currentUser.getUsername();
                 editUsernameNE.setText(currentUser.getUsername());
                 editAgeNE.setText(String.valueOf(currentUser.getAge()));
                 editEmailNE.setText(currentUser.getEmail());
@@ -154,9 +156,11 @@ public class EditProfile extends AppCompatActivity {
         }
         for (int i = 0; i < allUsers.size(); i++) {
             if (accountName.equals(allUsers.get(i).getUsername())) {
-                editUsernameNE.setError("Username is already taken");
-                editUsernameNE.requestFocus();
-                return false;
+                if (!originalUserName.equals(accountName)) {
+                    editUsernameNE.setError("Username is already taken");
+                    editUsernameNE.requestFocus();
+                    return false;
+                }
             }
         }
         currentUser.setProfilePic(picLink);

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="006d4962-cc3d-4cc5-aab5-8c4bb673da6f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/HikerGram-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/HikerGram.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/CustomArrayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/CustomArrayAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/EditProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/PostListSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/PostListSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/UserListSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/UserListSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/java/com/example/hikergram/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/res/color/navbar_icons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/res/color/navbar_icons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/res/layout/activity_edit_profiel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/res/layout/activity_user_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/res/layout/activity_user_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/res/layout/view_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/res/layout/view_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/res/menu/logout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/res/menu/logout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/res/menu/menu_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/res/menu/menu_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikerGram/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/HikerGram/gradlew.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2L6bbFOu2STNIZpk7rDxDcd9hsY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HikerGram" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="006d4962-cc3d-4cc5-aab5-8c4bb673da6f" name="Changes" comment="" />
+      <created>1675194549232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675194549232</updated>
+    </task>
+    <servers />
+  </component>
+</project>
